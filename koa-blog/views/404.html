@@ -1,0 +1,23 @@
+{% extends 'views/base.html' %}
+{% block body %}
+<div class="page-404 has-background-light has-text-centered">
+	<p class="subtitle is-3">页面走丢了…</p>
+	<pre>
+          .----.
+       _.'__    `.
+   .--($)($$)---/#\
+ .' @          /###\
+ :         ,   #####
+  `-..__.-' _.-\###/
+        `;_:    `"'
+      .'"""""`.
+     /,  ya ,\\
+    //  404!  \\
+    `-._______.-'
+    ___`. | .'___
+   (______|______)
+    </pre>
+	<a href="javascript:history.back();" class="button is-primary">上一页</a>
+	<a href="/" class="button is-link">返回主页</a>
+</div>
+{% endblock %}
